@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" type="text/css" href="Add-products.css">
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript"></script>
+  <meta charset="utf-8">
+  <title>Software</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="C:\Project\software\src\favicon.ico">
+</head>
+<body>
+  <app-root>
+  <div id="sidePanel">
+       <center><div class="container1">
+            <center><a>CUBWEB</a></center>
+       </div></center>
+<center><a href="C:\project\software\src\index.html"><button class="btn1"><i class="fa fa-dashboard"></i> Dashboard</button></a></center>
+<div class="dropdown">
+      <center> <button class="btn"><i class="fa fa-folder-open"></i>Inventory</button></center>
+      <div class="dropdown-content">
+        <a href="C:\project\software\src\product.html">Add products</a>
+        <a href="C:\project\software\src\View-product.html">View products</a>
+        <a href="C:\project\software\src\View-service.html">View service</a>
+      </div>
+    </div>
+    <div class="dropdown">
+        <center> <button class="btn1"><i class="fa fa-shopping-basket"></i> Sales</button></center>
+        <div class="dropdown-content">
+          <a href="C:\Project\software\src\add-sales.html">Sell products</a>
+          <a href="C:\project\software\src\offer-services.html">Offer services</a>
+          <a href="C:\project\software\src\View-sales.html">View sales</a>
+        </div>
+      </div>
+<center><a href="C:\project\software\src\Add-staff.html"><button class="btn1"><i class="fa fa-user"></i> Add staff</button></a></center>
+<center><a href="C:\project\software\src\app.html"><button class="btn1"><i class="fa fa-sign-out"></i> logout</button></a></center>
+ </div>
+  <div id="mainPanel">
+      <center>
+          <div class="container2">
+            <form action="action_page.php" style="border:1px solid #ccc">
+              <div class="container4">
+                <h1><c>Add products</c></h1>
+              
+                <hr>
+            
+                <label for="email"><b>Product name</b></label>
+                <input type="text" placeholder="" name="email" required>
+            
+                <label for="cpc"><b>Cost price</b></label>
+                <input type="text" placeholder="Total amount spent in purchasing the product" name="psw" required>
+            
+                <label for="psw-repeat"><b>Selling price</b></label>
+                <input type="password" placeholder="How much do you intend to sell the product?" name="psw-repeat" required>
+            
+               
+                <label for="email"><b>Product measure</b></label>
+                <input type="text" placeholder="How did you buy the product" name="email" required>
+
+                <label for="email"><b>Category</b></label>
+                <input type="text" placeholder="" name="email" required>
+
+                <label for="email"><b>Brand</b></label>
+                <input type="text" placeholder="" name="email" required>
+
+                <div class="clearfix">
+                    <button type="submit" class="signupbtn1">Save and add another</button>
+                
+                  <button type="submit" class="signupbtn">Save</button>
+                  <button type="button" class="cancelbtn">cancel</button>
+                </div>
+              </div>
+            </form>
+          </div>
+      </center>
+  </div>
+</app-root>
+</body>
+</html>
